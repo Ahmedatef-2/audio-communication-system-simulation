@@ -17,6 +17,9 @@ The project is structured into **4 fundamental communication blocks**:
 *   Converts multi-channel audio to mono for standard single-channel processing.
 *   Performs Fast Fourier Transform (FFT) to convert signals from **Time Domain** to **Frequency Domain**.
 
+<img src="images/img1.png" width="600">
+
+
 ### 2. Channel Effects (Convolution)
 Simulates signal distortion across 4 optional channel profiles using Linear Time-Invariant (LTI) systems response via convolution:
 *   **Delta Function:** Ideal channel with zero distortion.
