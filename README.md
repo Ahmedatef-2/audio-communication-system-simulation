@@ -50,4 +50,4 @@ Simulates signal distortion across 4 optional channel profiles using Linear Time
 1. Clone this repository to your local machine:
    
 ```bash
-   git clone https://github.com/Ahmedatef-2/audio-communication-system-simulation.git
+   git clone https://github.com/AhmedAtef-S/audio-communication-system-simulation.git
