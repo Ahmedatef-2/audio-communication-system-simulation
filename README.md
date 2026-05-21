@@ -2,7 +2,6 @@
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2026-orange.svg?style=for-the-badge&logo=mathworks)](https://www.mathworks.com/products/matlab.html)
 [![Signal Processing](https://img.shields.io/badge/Field-Signal--Processing-blue?style=for-the-badge)](https://www.mathworks.com/solutions/signal-processing.html)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 An advanced MATLAB-based simulation of a complete end-to-end audio communication link. This project models signal transformation from a transmitter, passes it through various realistic physical channels, injects Additive White Gaussian Noise (AWGN), and implements an ideal low-pass filter at the receiver to recover the original signal.
 
@@ -17,7 +16,7 @@ The project is structured into **4 fundamental communication blocks**:
 *   Converts multi-channel audio to mono for standard single-channel processing.
 *   Performs Fast Fourier Transform (FFT) to convert signals from **Time Domain** to **Frequency Domain**.
 
-![Project Screenshot](img1.png)
+<img src="images/img1.png" width="600">
 
 
 ### 2. Channel Effects (Convolution)
@@ -30,10 +29,14 @@ Simulates signal distortion across 4 optional channel profiles using Linear Time
 *   Generates **Additive White Gaussian Noise (AWGN)** based on user-defined standard deviation ($\sigma$).
 *   Visualizes how noise masks high-frequency components in both domains.
 
+<img src="images/img2.png" width="600">
+
 ### 4. Receiver (RX)
 *   Implements an **Ideal Low-Pass Filter (LPF)** with a critical cutoff frequency of $f_c = 3400\text{ Hz}$ (Standard voice bandwidth).
 *   Applies frequency-domain multiplication and Inverse FFT (IFFT) to reconstruct the original time-domain audio.
+<img src="images/img3.png" width="600">
 
+<img src="images/img4.png" width="600">
 ---
 
 ## 🚀 Getting Started
